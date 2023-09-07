@@ -10,7 +10,7 @@ shom.generate_spdc()
 
 # Make spectrum
 """ Make spectral filter """
-spectrum, refr_idx = n_and_k_from_abs_data(root='../Data/', fname="ZnNc_shifted.txt", λ_target=shom.λs)
+spectrum, refr_idx = n_and_k_from_abs_data(root='../Data/Absorption spectra/', fname="ZnNc_shifted.txt", λ_target=shom.λs)
 
 refr_idx, spectrum = make_lorentzian_spectrum(
     ω=shom.ωs,
