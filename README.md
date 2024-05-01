@@ -6,6 +6,8 @@ As currently implemented, the user has the option to filter the entire joint spe
 More relevant to the authors' experiments, the user can also specify amplitude and phase filters that correspond to e.g. a molecular sample with frequency-dependent absorption, α(ω), and refractive index, n(ω).
 The detected joint spectral intensity (JSI) is then calculated with or without the molecular sample in one arm of the interferometer.
 
+![JSI_scan](https://github.com/andrewhproppe/SpectralHOMAnalysis/assets/68742471/e2266648-32a4-446e-a635-ca4dbd53a33f)
+
 ## Usage
 
 ```py
