@@ -13,7 +13,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 from SpectralHOM import SpectralHOM
-from HOM_util make_lorentzian_spectrum
+from HOM_util import make_lorentzian_spectrum
 
 shom = SpectralHOM() # create a SpectralHOM object
 shom.generate_wavelengths(λp=405.5, λ_start=775, λ_end=850, resolution=256*2, offset=0.0) # set pump wavelength and the start/end wavelengths of the SPDC spectrum
